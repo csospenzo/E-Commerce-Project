@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 * {
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
@@ -10,17 +10,11 @@ nav {
   height: 80px;
   display: flex;
 }
-  
+
 img {
   width: 100%;
-  height: 100%;
-  max-height: 50vh;
-  padding: 20px;
 }
 
-p {
-  line-height: 1.5;
-}
 .nav__container {
   width: 100%;
   max-width: 1200px;
@@ -36,7 +30,7 @@ p {
 }
 
 .logo {
-    width: 160px;
+  width: 160px;
 }
 
 ul {
@@ -48,17 +42,18 @@ li {
 }
 
 .nav__link {
- margin-left: 16px;
- text-decoration: none;
- font-size: 20px; 
- color: #7342d6;
- font-weight: bold;
- padding: 8px; 
+  margin-left: 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #7342d6;
+  font-weight: bold;
+  padding: 8px;
 }
 
 .nav__link:hover {
   text-decoration: underline;
-} 
+}
+
 .nav__link--primary {
   border: 2px solid #7342d6;
   border-radius: 4px;
@@ -69,7 +64,7 @@ li {
 }
 
 #landing {
-  background-color: rgba(115, 66, 214, 0.1); 
+  background-color: rgba(115, 66, 214, 0.1)
 }
 
 header {
@@ -77,15 +72,13 @@ header {
 }
 
 .header__container {
-  padding-top: 32px;
   width: 100%;
-  max-width: 1200px;
+  max-width: 768px;
   margin: 0 auto;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  
+  justify-content: space-between;
 }
 
 .header__description {
@@ -102,37 +95,25 @@ h1 {
 }
 
 h2 {
+  text-align: center;
   font-size: 32px;
   margin-bottom: 32px;
-  text-align: center;
 }
 
 button {
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 button:active {
-  transform: translateY(1px)
+  transform: translateY(1px);
 }
-
 
 .btn {
   background-color: #7342d6;
   color: white;
   padding: 12px 24px;
-  font-size: 20px;
+  font-family: 20px;
   border-radius: 4px;
   border: none;
 }
-
-.header__img--wrapper {
-  padding: 20px;
-}
-
-
-
-
-
-
-
 
